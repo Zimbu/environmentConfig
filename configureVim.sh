@@ -13,6 +13,11 @@ elif [ ! -f ~/.vimrc.bak ] && [ ! -f ~/.vimrc ]; then
   touch ~/.vimrc.bak
 fi
 
+#####################
+# Install Powerline #
+#####################
+source ~/setupScripts/configurePowerline.sh
+
 ###############
 # Install GIT #
 ###############
